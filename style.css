@@ -56,8 +56,9 @@ body{
 }
 
 .weatherIcon{
-    width: 170px;
+    width: 110px;
     margin-top: 30px;
+    margin-right:40px ;
 }
 
 .weather h1{
@@ -97,7 +98,7 @@ body{
 }
 
 .weather{
-    display: none;
+    /* display: none; */
 }
 
 .error{
@@ -106,4 +107,17 @@ body{
     font-size: 14px;
     margin-top:10px ;
     display: none;
+}
+
+.weatherIcon-cont{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+
+}
+
+.weatherIcon-cont p{
+    margin-top: 40px;
+    font-size: 26px;
 }
